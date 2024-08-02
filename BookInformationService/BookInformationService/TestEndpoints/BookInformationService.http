@@ -1,0 +1,28 @@
+﻿@rootUrl= http://localhost:7253/api
+
+###
+GET {{rootUrl}}/bookinformations
+
+###
+GET {{rootUrl}}/bookinformations/a75af76d-0c61-4cbb-940a-92ed13a05cf8
+
+###
+POST {{rootUrl}}/bookinformations
+Content-Type: application/json
+
+{
+  "title": "title1",
+  "stock": 15
+}
+
+###
+PUT {{rootUrl}}/bookinformations/a75af76d-0c61-4cbb-940a-92ed13a05cf8
+Content-Type: application/json
+
+{
+  "title": "title1_updated",
+  "stock": 40
+}
+
+###
+DELETE {{rootUrl}}/bookinformations/a75af76d-0c61-4cbb-940a-92ed13a05cf8

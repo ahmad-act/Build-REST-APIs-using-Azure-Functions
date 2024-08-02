@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "COSMOS_DB_ENDPOINT": "https://<cosmos-db-account>.documents.azure.com:443/",
+    "COSMOS_DB_KEY": "<Azure Cosmos DB key>",
+    "COSMOS_DB_DATABASE_NAME": "bookinformationdb"
+  }
+}
